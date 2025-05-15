@@ -5,6 +5,10 @@ import pyasn
 import networkx as nx
 import matplotlib.pyplot as plt
 import time 
+import matplotlib.pyplot as plt
+import random
+import matplotlib.pyplot as plt
+from collections import defaultdict
 
 asndb = pyasn.pyasn('ipasn_db.dat')
 G = nx.Graph()
